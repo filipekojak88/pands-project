@@ -32,7 +32,7 @@ column_title = ["sepal length in cm", "sepal width in cm", "petal length in cm",
 df.columns = column_title
 
 # Print the first 5 rows of the DataFrame
-print(df.head())
+# print(df.head())
 
 # Output to a single text file
 with open ('summary.txt','wt') as sf:
