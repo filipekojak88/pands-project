@@ -6,7 +6,7 @@
 #   4. Performs any other analysis you think is appropriate.
 # Author: Filipe Carvalho
 
-# Part 1: Outputs a summary of each variable to a single text file
+# 1: Outputs a summary of each variable to a single text file
 
 # Import 'os' to check if the file exists
 import os
@@ -33,6 +33,36 @@ df.columns = column_title
 
 # Print the first 5 rows of the DataFrame
 # print(df.head())
+
+
+# Summary of the variables
+
+# Categorical Data
+categorical_summary = {}
+# Count: loop through each categorical variables
+for column in df.select_dtypes(include=['object']):
+    # Count occurrences of each category
+    counts = df[column].value_counts()
+          
+    # Get the number of unique categories
+    unique_categories = len(counts)
+    
+    # Add summary to dictionary
+    categorical_summary[column] = {
+        'count': counts,
+        'unique_categories': unique_categories
+    }
+
+# Print the summary for each categorical variable
+# for variable, summary in categorical_summary.items():
+    #print(f"Summary for '{variable}':")
+    #print(summary)
+    #print()
+
+# Continuous Data
+# Calculate continuous summary
+continuous_summary = df.describe()
+print(continuous_summary, sep='\t')
 
 # Output to a single text file
 with open ('summary.txt','wt') as sf:
