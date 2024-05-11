@@ -59,17 +59,21 @@ continuous_summary = df.describe()
 
 # Output to a single text file
 with open('summary.txt', 'wt') as sf:
-    sf.write(f"This is the summary of the variables in Iris Dataset:\n\n")
+    # Writing the title of the summary.txt file
+    sf.write("This is the summary of the variables in Iris Dataset:\n\n")
+
     # Write summary for continuous variables
-    sf.write("Summary for Continuous Variables:\n")
+    sf.write("1. Summary for Continuous Variables:\n\n")
+    # Initialize the counter
+    counter = 1
     for column in continuous_summary.columns:
-        sf.write(f"Variable: {column}\n")
+        sf.write(f"1.{counter} Variable: {column}\n")
         for statistic in continuous_summary.index:
             sf.write(f"{statistic.capitalize()}: {continuous_summary.loc[statistic, column]}\n")
         sf.write("\n")
-    
+        counter += 1 
     # Write summary for categorical variables
-    sf.write("Summary for Categorical Variables:\n")
+    sf.write("2. Summary for Categorical Variables:\n")
     for variable, summary in categorical_summary.items():
         sf.write(f"Variable: {variable}\n")
         sf.write(summary['count'].to_string())
