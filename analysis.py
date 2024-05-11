@@ -53,18 +53,24 @@ for column in df.select_dtypes(include=['object']):
         'unique_categories': unique_categories
     }
 
-# Print the summary for each categorical variable
-# for variable, summary in categorical_summary.items():
-    #print(f"Summary for '{variable}':")
-    #print(summary)
-    #print()
-
 # Continuous Data
 # Calculate continuous summary
 continuous_summary = df.describe()
-print(continuous_summary, sep='\t')
 
 # Output to a single text file
-with open ('summary.txt','wt') as sf:
-    sf.write('summary')
-# print ('done')
+with open('summary.txt', 'wt') as sf:
+    sf.write(f"This is the summary of the variables in Iris Dataset:\n\n")
+    # Write summary for continuous variables
+    sf.write("Summary for Continuous Variables:\n")
+    for column in continuous_summary.columns:
+        sf.write(f"Variable: {column}\n")
+        for statistic in continuous_summary.index:
+            sf.write(f"{statistic.capitalize()}: {continuous_summary.loc[statistic, column]}\n")
+        sf.write("\n")
+    
+    # Write summary for categorical variables
+    sf.write("Summary for Categorical Variables:\n")
+    for variable, summary in categorical_summary.items():
+        sf.write(f"Variable: {variable}\n")
+        sf.write(summary['count'].to_string())
+        sf.write(f"\nUnique Categories: {summary['unique_categories']}\n\n")
