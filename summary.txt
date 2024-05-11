@@ -1,8 +1,41 @@
-This is the summary of the variables in Iris Dataset:
+This is a summary of the Iris Dataset variables:
 
-1. Summary for Continuous Variables:
 
-1.1 Variable: sepal length in cm
+1. Introduction - Summary of the Data Types in Python:
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 150 entries, 0 to 149
+Data columns (total 5 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   Sepal Length (cm)  150 non-null    float64
+ 1   Sepal Width (cm)   150 non-null    float64
+ 2   Petal Length (cm)  150 non-null    float64
+ 3   Petal Width (cm)   150 non-null    float64
+ 4   Species            150 non-null    object 
+dtypes: float64(4), object(1)
+memory usage: 6.0+ KB
+
+
+2.Variables Types Classification based on Python Data Types: 
+
+object = Categorical Variable 
+float64 = Continuous Variable
+
+
+3. Summary for Categorical Variables:
+
+3.1 Variable: Species
+Iris-setosa        50
+Iris-versicolor    50
+Iris-virginica     50
+
+Unique Categories: 3
+
+
+4. Summary for Continuous Variables:
+
+4.1 Variable: Sepal Length (cm)
 Count: 150.0
 Mean: 5.843333333333334
 Std: 0.8280661279778629
@@ -12,7 +45,7 @@ Min: 4.3
 75%: 6.4
 Max: 7.9
 
-1.2 Variable: sepal width in cm
+4.2 Variable: Sepal Width (cm)
 Count: 150.0
 Mean: 3.0540000000000003
 Std: 0.4335943113621737
@@ -22,7 +55,7 @@ Min: 2.0
 75%: 3.3
 Max: 4.4
 
-1.3 Variable: petal length in cm
+4.3 Variable: Petal Length (cm)
 Count: 150.0
 Mean: 3.758666666666666
 Std: 1.7644204199522617
@@ -32,7 +65,7 @@ Min: 1.0
 75%: 5.1
 Max: 6.9
 
-1.4 Variable: petal width in cm
+4.4 Variable: Petal Width (cm)
 Count: 150.0
 Mean: 1.1986666666666668
 Std: 0.7631607417008414
@@ -41,12 +74,4 @@ Min: 0.1
 50%: 1.3
 75%: 1.8
 Max: 2.5
-
-2. Summary for Categorical Variables:
-Variable: class
-class
-Iris-setosa        50
-Iris-versicolor    50
-Iris-virginica     50
-Unique Categories: 3
 
