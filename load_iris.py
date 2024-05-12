@@ -27,9 +27,6 @@ def load_dataset(file_name):
     # Setting column titles as headers to the dataframe
     df.columns = column_title
 
-    # Print the first 5 rows of the DataFrame
-    print(df.head())
-
     # Load dataset and return it
     return df
     
