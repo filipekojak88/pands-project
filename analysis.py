@@ -7,7 +7,10 @@
 # Author: Filipe Carvalho
 
 
+# Import necessary libraries
+
 from summary import create_summary
+
 from histogram import create_histogram
 
 # 1: Outputs a summary of each variable to a single text file
