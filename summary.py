@@ -9,6 +9,7 @@ import pandas as pd  # For data summary
 import io  # To use a string buffer for df.info()
 from load_iris import load_dataset  # To load the iris dataset 
 from correlation import create_correlation  # To do the correlation analysis
+from tabulate import tabulate  # For table formatting
 
 def create_summary(file_name):
     """
@@ -56,12 +57,14 @@ def create_summary(file_name):
         sf.write("1. Introduction: Looking into the data\n\n")
         sf.write("1.1 Head of the Dataset:\n")
         sf.write("This is a quick overview of the first 5 rows of the dataset.\n")
-        sf.write(df.head().to_string() + "\n\n")
+        # Write the formatted DataFrame head to the summary file using tabulate
+        sf.write(tabulate(df.head(), headers='keys', tablefmt='grid') + "\n\n")
 
         # Write an overview of the last 5 rows of the dataset
         sf.write("1.2 Tail of the Dataset:\n")
         sf.write("This is a quick overview of the last 5 rows of the dataset.\n")
-        sf.write(df.tail().to_string() + "\n\n\n")
+        # Write the formatted DataFrame tail to the summary file using tabulate
+        sf.write(tabulate(df.tail(), headers='keys', tablefmt='grid') + "\n\n\n")
 
         # Introduce the types of variables in the dataset
         sf.write('2. Summary of the Data Types in Python:\n\n')
