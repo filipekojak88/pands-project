@@ -15,12 +15,18 @@ from histogram import create_histogram
 
 from scatterplot import create_scatterplot
 
+from heatmap import create_heatmap
+
+file_name = 'iris.data'
+
 # 1: Outputs a summary of each variable to a single text file
-create_summary('iris.data')
+create_summary(file_name)
    
 # 2: Saves a histogram of each variable to png files
-create_histogram('iris.data')
+create_histogram(file_name)
 
 # 3: Outputs a scatter plot of each pair of variables
-create_scatterplot('iris.data')
+create_scatterplot(file_name)
 
+# 4: Outputs a heatmap with the correlation between the pair of variables
+create_heatmap(file_name)
