@@ -41,38 +41,6 @@ def create_heatmap(file_name):
 
     plt.show()
 
-    # Group correlations by strength of relationship
-    strong_correlations = []
-    moderate_correlations = []
-    weak_correlations = []
-    for col1 in corr.columns:
-        for col2 in corr.columns:
-            if col1 < col2:  # Filter out mirrored correlations
-                correlation = corr.loc[col1, col2]
-                if abs(correlation) >= 0.5:  # Strong correlation threshold
-                    strong_correlations.append((col1, col2, correlation))
-                elif abs(correlation) >= 0.3:  # Moderate correlation threshold
-                    moderate_correlations.append((col1, col2, correlation))
-                else:
-                    weak_correlations.append((col1, col2, correlation))
-
-    # Sort correlations within each category based on correlation value
-    strong_correlations.sort(key=lambda x: x[2], reverse=True)
-    moderate_correlations.sort(key=lambda x: x[2], reverse=True)
-    weak_correlations.sort(key=lambda x: x[2], reverse=True)
-
-    # Print summary
-    print("5. Summary of Correlation Analysis:\n")
-    print("For x = correlation coefficient between each two variables of the Iris dataset, the following assumptions can be made: \n")
-    print("Strong Relationships 'abs(x)>= 0.5':")
-    for correlation in strong_correlations:
-        print(f" - {correlation[0]} and {correlation[1]} is {correlation[2]:.2f}")
-    print("\nModerate Relationships 'abs(x)>= 0.3':")
-    for correlation in moderate_correlations:
-        print(f" - {correlation[0]} and {correlation[1]} is {correlation[2]:.2f}")
-    print("\nWeak Relationships 'abs(x) < 0.3':")
-    for correlation in weak_correlations:
-        print(f" - {correlation[0]} and {correlation[1]} is {correlation[2]:.2f}")
-
+    
 if __name__ == "__main__":
     create_heatmap('iris.data')

@@ -12,6 +12,8 @@ import io
 # Import the load_dataset function from load_iris.py
 from load_iris import load_dataset
 
+from correlation import create_correlation  # Import create_correlation function
+
 def create_summary(file_name):
     
     # Load the dataset
@@ -81,6 +83,11 @@ def create_summary(file_name):
             sf.write("\n")
             # Iterating in each loop
             counter += 1
+
+        # Call create_correlation and write its output to summary.txt
+        sf.write("\n5. Summary of Correlation Analysis:\n\n")
+        correlation_output = create_correlation(file_name)
+        sf.write(correlation_output)
 
 if __name__ == "__main__":
     create_summary('iris.data')

@@ -75,3 +75,19 @@ Min: 0.1
 75%: 1.8
 Max: 2.5
 
+
+5. Summary of Correlation Analysis:
+
+For x = correlation coefficient between each two variables of the Iris dataset, the following assumptions can be made: 
+
+Strong Relationships 'abs(x)>= 0.5':
+- Petal Length (cm) and Petal Width (cm) is 0.96
+- Petal Length (cm) and Sepal Length (cm) is 0.87
+- Petal Width (cm) and Sepal Length (cm) is 0.82
+
+Moderate Relationships 'abs(x)>= 0.3':
+- Petal Width (cm) and Sepal Width (cm) is -0.36
+- Petal Length (cm) and Sepal Width (cm) is -0.42
+
+Weak Relationships 'abs(x) < 0.3':
+- Sepal Length (cm) and Sepal Width (cm) is -0.11
