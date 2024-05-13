@@ -30,3 +30,6 @@ create_scatterplot(file_name)
 
 # 4: Outputs a heatmap with the correlation between the pair of variables
 create_heatmap(file_name)
+
+# 5: Outputs a correlation analysis of the correlation coefficient between the pair of variables.
+# correlation.py was created and added as a module in summary.py to be printed to summary.txt.
