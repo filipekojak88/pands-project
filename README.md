@@ -17,7 +17,7 @@ This dataset has since become a standard test case for various statistical class
 
 Data was collected from three difference Iris flowers species: setosa, versicolor and virginica.    
 
-![iris_image](iris_image.png)    
+![iris](iris.png) 
 *Iris species: setosa, versicolor, virginica*  [[8]](#8) [[9]](#9) [[10]](#10)       
 
 - 4 measurements were taken from each Iris flower: sepal length (cm), sepal width (cm), petal length (cm), and petal width (cm).          
@@ -76,3 +76,5 @@ About me...
 11  Example for principal component analysis (PCA): Iris Data (2019). Available at: https://www.math.umd.edu/~petersd/666/html/iris_pca.html (Accessed: 16 May 2024).
 12 Fisher, R. (1988) Iris, UCI Machine Learning Repository. Available at: https://archive.ics.uci.edu/dataset/53/iris (Accessed: 16 May 2024). 
 13 Beatty, A. (2024) Andrewbeattycourseware - pands-course-material/labs/Project 2024, GitHub. Available at: https://github.com/andrewbeattycourseware/pands-course-material/blob/main/labs/Project%202024.pdf (Accessed: 16 May 2024). 
+
+[iris]: iris_image.png
