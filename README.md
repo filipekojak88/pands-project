@@ -17,12 +17,12 @@ This dataset has since become a standard test case for various statistical class
 
 Data was collected from three difference Iris flowers species: setosa, versicolor and virginica.    
 
-![Iris_image](images/iris.png)    
+![iris_image](iris_image.png)    
 *Iris species: setosa, versicolor, virginica*  [[8]](#8) [[9]](#9) [[10]](#10)       
 
 - 4 measurements were taken from each Iris flower: sepal length (cm), sepal width (cm), petal length (cm), and petal width (cm).          
 
-![Measurements](images/measurement.png)     
+![measurements](measurement.png)     
 *Iris measurements: sepal length, sepal width, petal length, petal width* [[11]](#11)    
 
 The Jupyter notebook [iris_project.ipynb](iris_project.ipynb) presents a detailed explanation of the Python programs, modules and functions used to analyse the Iris dataset as well the investigation outcomes achieved from each Python program.         
