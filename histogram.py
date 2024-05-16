@@ -14,11 +14,15 @@ import numpy as np
 
 from scipy.stats import norm, skew
 
+import os
+
 def create_histogram (file_name):
     
     # Load the dataset
     df = load_dataset(file_name)
 
+    # Create directory if it doesn't exist
+    os.makedirs("histogram", exist_ok=True)
 
     # Load through each continuous variable
     for column_name, data in df.select_dtypes(include=['float64']).items():
@@ -79,8 +83,8 @@ def create_histogram (file_name):
         plt.gca().add_artist(left_legend)
         plt.gca().add_artist(right_legend)
 
-        # Save the histogram as a PNG file
-        plt.savefig(f"{column_name}_histogram.png")
+        # Save the histogram as a PNG file within the histogram directory
+        plt.savefig(os.path.join("histogram",f"{column_name}_histogram.png"))
         plt.close()  # Close the current figure to release memory and avoid overlapping plots
 
 if __name__ == "__main__":

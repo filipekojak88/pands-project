@@ -1,5 +1,5 @@
 # Program: heatmap.py
-# This program: 4. Outputs a heatmap with the correlation between the pair of variables
+# This program: 4. Outputs a heatmap with the correlation of each pair of variables
 # Author: Filipe Carvalho
 
 

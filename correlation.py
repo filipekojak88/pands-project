@@ -1,6 +1,5 @@
 # Program: correlation.py
-# This program: 5. Outputs a correlation analysis of each variable,
-# and append to the single text file created in summary.py
+# This program: 5. Outputs a correlation analysis of each pair of variable,
 # Author: Filipe Carvalho
 
 
