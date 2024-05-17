@@ -9,9 +9,13 @@
 # Author: Filipe Carvalho
 
 # Import necessary libraries
+
 from summary import create_summary
+
 from histogram import create_histogram
+
 from scatterplot import create_scatterplot
+
 from heatmap import create_heatmap
 
 
