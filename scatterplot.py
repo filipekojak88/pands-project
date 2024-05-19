@@ -23,7 +23,13 @@ def create_scatterplot (file_name):
     df = load_dataset(file_name)
 
     # Extract continuous variable names
-    continuous_vars = df.columns[:-1]  # Exclude the last column which is categorical
+    continuous_vars = []
+    # Iterate through each column in the DataFrame
+    for column_name, data in df.items():
+        # Check if data type is float64
+        if data.dtype == 'float64':  # Check if data type is float64
+            # If the data type is float64, add the column name to the list of continuous variables
+            continuous_vars.append(column_name)
     
     # Create scatterplot matrix with seaborn pairplot
     sns.pairplot(df, vars=continuous_vars, hue='Species')
