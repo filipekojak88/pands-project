@@ -1,7 +1,6 @@
 # Program: summary.py
-# This program: 
-# 1. Outputs a summary of each variable to a single text file.
-# 2. Provides an overview of the first 5 rows and last 5 rows of the dataset.
+# This program outputs a summary of each variable to a single text file,
+# and the correlation analysis between each two pairs of continuous variables.
 # Author: Filipe Carvalho
 
 # Import necessary libraries
@@ -22,8 +21,8 @@ def create_summary(file_name):
     Generates a summary of each variable in the dataset, provides an overview of the first 5 rows
     and last 5 rows of the dataset, and saves it all to a text file.
 
-    Where the parameters are:
-        file_name: Name of the file containing the iris dataset.
+    Parameter:
+        Name of the file containing the Iris DataSet.
     """
     # Load the dataset
     df = load_dataset(file_name)

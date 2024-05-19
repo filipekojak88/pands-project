@@ -1,5 +1,5 @@
 # Program: histogram.py
-# This program: 2. Saves a histogram of each variable to png files
+# This program saves a histogram of each variable to png files
 # Author: Filipe Carvalho
 
 
@@ -20,11 +20,9 @@ def create_histogram (file_name):
     """
     Create histograms for continuous variables in the dataset.
 
-    Args:
-    file_name (str): Name of the file containing the dataset.
-
+    Parameter:
+        file_name: Name of the file containing the Iris DataSet.
     """
-    
     # Load the dataset
     df = load_dataset(file_name)
 
@@ -102,5 +100,5 @@ def create_histogram (file_name):
 
 # If this script is executed as the main program
 if __name__ == "__main__":
-     # Creates histograms for the 'iris.data' dataset 
+    # Execute create_histogram using the 'iris.data' dataset as an argument 
     create_histogram('iris.data')

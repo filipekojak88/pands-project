@@ -1,5 +1,5 @@
 # Program: load_iris.py
-# This program: Loads the iris dataset.
+# This program loads the Iris DataSet.
 # Author: Filipe Carvalho
 
 # Import necessary libraries
@@ -11,6 +11,12 @@ import pandas as pd
 
 
 def load_dataset(file_name):
+    """
+    Loads the Iris dataset from the specified file.
+
+    Parameter:
+        file_name: Name of the file containing the Iris DataSet.
+    """
     # Check if file exists
     if not os.path.exists(file_name):
         # if file does not exist, then output a message
@@ -20,15 +26,19 @@ def load_dataset(file_name):
     # Load dataset 
     df = pd.read_csv(file_name, header=None)
 
-    # Adding Column titles to the iris.data
+
+    # Adding Column titles to the iris.data:
+
     # Defining the column titles
     column_title = ["Sepal Length (cm)", "Sepal Width (cm)", "Petal Length (cm)", "Petal Width (cm)", "Species"]
 
     # Setting column titles as headers to the dataframe
     df.columns = column_title
 
-    # Load dataset and return it
+    # Return the loaded dataset
     return df
     
+# If this script is executed as the main program
 if __name__ == "__main__":
-    load_dataset ('iris.data')
+    # Load the 'iris.data' dataset 
+    load_dataset('iris.data')
