@@ -50,17 +50,20 @@ def create_heatmap(file_name):
 
     # Initialize an empty list to hold legend handles
     handles = []
+
     # Iterate over legend labels and thresholds
     for label, threshold in legend_labels.items():
         # Create dummy scatterplots for each label
         handles.append(ax.scatter([], [], color='black', label=label))
+
     # Add legend with specified properties
     plt.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, -0.1), ncol=3, fontsize=10)
     
+
     # Display the heatmap
     plt.show()
 
 # If this script is executed as the main program
 if __name__ == "__main__":
-    # Execute create_heatmap using the 'iris.data' dataset as an argument 
+    # Execute create_heatmap using the 'Iris.data' as an argument 
     create_heatmap('iris.data')
