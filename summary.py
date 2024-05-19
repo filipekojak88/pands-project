@@ -5,11 +5,17 @@
 # Author: Filipe Carvalho
 
 # Import necessary libraries
-import pandas as pd  # For data summary
-import io  # To use a string buffer for df.info()
-from load_iris import load_dataset  # To load the iris dataset 
-from correlation import create_correlation  # To do the correlation analysis
-from tabulate import tabulate  # For table formatting
+
+# For data summary
+import pandas as pd  
+# To use a string buffer for df.info()
+import io  
+# To load the iris dataset 
+from load_iris import load_dataset  
+# To do the correlation analysis
+from correlation import create_correlation  
+# For table formatting
+from tabulate import tabulate  
 
 def create_summary(file_name):
     """
@@ -112,7 +118,7 @@ def create_summary(file_name):
         # Write the correlation analysis output to the summary file
         sf.write(correlation_output)
 
-# If this script is executed as the main program,
-# Generate a summary for the 'iris.data' dataset
+# If this script is executed as the main program
 if __name__ == "__main__":
+    # Generate a summary for the 'iris.data' dataset
     create_summary('iris.data')
