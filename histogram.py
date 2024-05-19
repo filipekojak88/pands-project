@@ -5,7 +5,6 @@
 
 # Import necessary libraries
 
-# Import the load_dataset function from load_iris.py
 from load_iris import load_dataset
 
 import matplotlib.pyplot as plt
