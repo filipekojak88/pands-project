@@ -232,3 +232,39 @@ For further insights into my background, feel free to connect with me on LinkedI
 <a id="77">[77]</a> GeeksforGeeks (2024) Python: Os.path.join() method, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/python-os-path-join-method/ (Accessed: 20 May 2024). 
 
 <a id="78">[78]</a> Matplotlib.pyplot.show# (no date) matplotlib.pyplot.show - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html (Accessed: 20 May 2024). 
+
+<a id="79">[79]</a> Navone, E.C. (2020) Python empty list tutorial – how to create an empty list in Python, freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/python-empty-list-tutorial-how-to-create-an-empty-list-in-python/ (Accessed: 20 May 2024). 
+
+<a id="80">[80]</a> Seaborn.pairplot# (no date) seaborn.pairplot - seaborn 0.13.2 documentation. Available at: https://seaborn.pydata.org/generated/seaborn.pairplot.html (Accessed: 20 May 2024). 
+
+<a id="81">[81]</a> Chip (2024) How to read a correlation Heatmap, QuantHub. Available at: https://www.quanthub.com/how-to-read-a-correlation-heatmap/#:~:text=Darker%20colors%20indicate%20stronger%20correlations,such%20as%20red%20or%20orange. (Accessed: 20 May 2024). 
+
+<a id="82">[82]</a> Fernando, J. (no date) The correlation coefficient: What it is and what it tells investors, Investopedia. Available at: https://www.investopedia.com/terms/c/correlationcoefficient.asp (Accessed: 20 May 2024). 
+
+<a id="83">[83]</a> Pandas.dataframe.corr# (no date) pandas.DataFrame.corr - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html (Accessed: 20 May 2024). 
+
+<a id="84">[84]</a> Matplotlib.pyplot.figure# (no date) matplotlib.pyplot.figure - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html (Accessed: 20 May 2024). 
+
+<a id="85">[85]</a> Seaborn.heatmap# (no date) seaborn.heatmap - seaborn 0.13.2 documentation. Available at: https://seaborn.pydata.org/generated/seaborn.heatmap.html (Accessed: 20 May 2024). 
+
+<a id="86">[86]</a> Matplotlib.axes.Axes.scatter# (no date) matplotlib.axes.Axes.scatter - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.scatter.html (Accessed: 20 May 2024). 
+
+<a id="87">[87]</a> Matplotlib.pyplot.legend# (no date) matplotlib.pyplot.legend - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html (Accessed: 20 May 2024). 
+
+<a id="88">[88]</a> 4.4. nested for loops¶ (no date) 4.4. Nested For Loops - AP CSAwesome. Available at: https://runestone.academy/ns/books/published/csawesome/Unit4-Iteration/topic-4-4-nested-loops.html (Accessed: 20 May 2024). 
+
+<a id="89">[89]</a> Pandas.DataFrame.loc# (no date) pandas.DataFrame.loc - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html (Accessed: 20 May 2024). 
+
+<a id="90">[90]</a> Sorting techniques (no date) Python documentation. Available at: https://docs.python.org/3/howto/sorting.html (Accessed: 20 May 2024). 
+
+<a id="91">[91]</a> freeCodeCamp.org (2021) Lambda expressions in Python, freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/lambda-expressions-in-python/ (Accessed: 20 May 2024). 
+
+<a id="92">[92]</a> Faccioni, J.L. (2023) How to append to a string in Python, LearnPython.com. Available at: https://learnpython.com/blog/python-concatenate-strings/ (Accessed: 20 May 2024). 
+
+<a id="93">[93]</a> Iterating over columns from two dataframes to estimate correlation and P-value (2021) Stack Overflow. Available at: https://stackoverflow.com/questions/66740083/iterating-over-columns-from-two-dataframes-to-estimate-correlation-and-p-value (Accessed: 20 May 2024). 
+
+<a id="94">[94]</a> (No date) Python access list items. Available at: https://www.w3schools.com/python/gloss_python_access_list_items.asp (Accessed: 20 May 2024). 
+
+<a id="95">[95]</a> Real Python (2023) The python return statement: Usage and best practices, Real Python. Available at: https://realpython.com/python-return-statement/ (Accessed: 20 May 2024). 
+
+<a id="96">[96]</a> What are modules in python, and how do they organize code? (no date) w3resource. Available at: https://www.w3resource.com/python-interview/what-are-modules-in-python-and-how-do-they-organize-code.php#google_vignette (Accessed: 20 May 2024). 
