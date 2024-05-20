@@ -168,3 +168,67 @@ For further insights into my background, feel free to connect with me on LinkedI
 <a id="45">[45]</a> Pandas: Get First/last N rows of DataFrame with head() and tail() (no date) nkmk note. Available at: https://note.nkmk.me/en/python-pandas-head-tail/ (Accessed: 20 May 2024). 
 
 <a id="46">[46]</a> Pandas.dataframe.info# (no date) pandas.DataFrame.info - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html (Accessed: 20 May 2024). 
+
+<a id="47">[47]</a> I am trying to write numbers 1 - 4096 in a .TXT file using a for loop, but when the loop is finished, there is only the number 4096 in the .TXT file (2021) Stack Overflow. Available at: https://stackoverflow.com/questions/68627130/i-am-trying-to-write-numbers-1-4096-in-a-txt-file-using-a-for-loop-but-when (Accessed: 20 May 2024). 
+
+<a id="48">[48]</a> (No date) Python dictionary items() method. Available at: https://www.w3schools.com/python/ref_dictionary_items.asp (Accessed: 20 May 2024). 
+
+<a id="49">[49]</a> Pandas.dataframe.to_string# (no date) pandas.DataFrame.to_string - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_string.html (Accessed: 20 May 2024). 
+
+<a id="50">[50]</a> Pandas-Dev (no date) DataFrame.to_string ignores col_space when header=false · issue #8230 · Pandas-dev/pandas, GitHub. Available at: https://github.com/pandas-dev/pandas/issues/8230 (Accessed: 20 May 2024). 
+
+<a id="51">[51]</a> Pandas.index# (no date) pandas.Index - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.Index.html (Accessed: 20 May 2024). 
+
+<a id="52">[52]</a> (No date a) Python string capitalize() method. Available at: https://www.w3schools.com/python/ref_string_capitalize.asp#:~:text=The%20capitalize()%20method%20returns,the%20rest%20is%20lower%20case. (Accessed: 20 May 2024).
+
+<a id="53">[53]</a> Pandas.DataFrame.loc# (no date) pandas.DataFrame.loc - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html (Accessed: 20 May 2024). 
+
+<a id="54">[54]</a> Python os.makedirs() method (no date) Python os.makedirs(). Available at: https://www.w3schools.com/python/ref_os_makedirs.asp (Accessed: 20 May 2024). 
+
+<a id="55">[55]</a> How do I find numeric columns in Pandas? (2014) Stack Overflow. Available at: https://stackoverflow.com/questions/25039626/how-do-i-find-numeric-columns-in-pandas (Accessed: 20 May 2024). 
+
+<a id="56">[56]</a> Numpy.histogram# (no date) numpy.histogram - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/generated/numpy.histogram.html (Accessed: 20 May 2024). 
+
+<a id="57">[57]</a> Matplotlib.pyplot.bar# (no date) matplotlib.pyplot.bar - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html (Accessed: 20 May 2024). 
+
+<a id="58">[58]</a> Numpy.diff# (no date) numpy.diff - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/generated/numpy.diff.html (Accessed: 20 May 2024). 
+
+<a id="59">[59]</a> (No date a) Matplotlib labels and title. Available at: https://www.w3schools.com/python/matplotlib_labels.asp (Accessed: 20 May 2024). 
+
+<a id="60">[60]</a> Matplotlib.pyplot.xticks# (no date) matplotlib.pyplot.xticks - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xticks.html (Accessed: 20 May 2024). 
+
+<a id="61">[61]</a> GeeksforGeeks (2019) Scipy stats.skew(): Python, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/scipy-stats-skew-python/ (Accessed: 20 May 2024). 
+
+<a id="62">[62]</a> (No date) Python abs() function. Available at: https://www.w3schools.com/python/ref_func_abs.asp (Accessed: 20 May 2024). 
+
+<a id="63">[63]</a> Wilcoxon, R. (2023) Is that normal?, Electronics Cooling. Available at: https://www.electronics-cooling.com/2023/04/is-that-normal/#:~:text=Distributions%20with%20an%20absolute%20value,are%20extremely%20skewed%20%5B2%5D. (Accessed: 20 May 2024). 
+
+<a id="64">[64]</a> Scipy.stats.norm# (no date) scipy.stats.norm - SciPy v1.13.0 Manual. Available at: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html (Accessed: 20 May 2024). 
+
+<a id="65">[65]</a> Numpy.linspace# (no date) numpy.linspace - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html (Accessed: 20 May 2024). 
+
+<a id="66">[66]</a> Gupta, K. (2023) Python Min & Max: Find largest & smallest values (or with loop), FavTutor. Available at: https://favtutor.com/blogs/min-max-python#:~:text=The%20min()%20function%20takes,and%20’min(iterable)’. (Accessed: 20 May 2024). 
+
+<a id="67">[67]</a> Matplotlib.pyplot.plot# (no date) matplotlib.pyplot.plot - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html (Accessed: 20 May 2024). 
+
+<a id="68">[68]</a> Matplotlib.pyplot.axvline¶ (no date) matplotlib.pyplot.axvline - Matplotlib 3.1.2 documentation. Available at: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.axvline.html (Accessed: 20 May 2024). 
+
+<a id="69">[69]</a> Numpy.mean# (no date) numpy.mean - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/generated/numpy.mean.html (Accessed: 20 May 2024). 
+
+<a id="70">[70]</a> Numpy.std# (no date) numpy.std - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/generated/numpy.std.html (Accessed: 20 May 2024). 
+
+<a id="71">[71]</a> Numpy.median# (no date) numpy.median - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/generated/numpy.median.html (Accessed: 20 May 2024). 
+
+<a id="72">[72]</a> MATPLOTLIB.PYPLOT.GCA# (no date) matplotlib.pyplot.gca - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.gca.html (Accessed: 20 May 2024). 
+
+<a id="73">[73]</a> Matplotlib.axes.axes.get_legend_handles_labels# (no date) matplotlib.axes.Axes.get_legend_handles_labels - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.get_legend_handles_labels.html (Accessed: 20 May 2024). 
+
+<a id="74">[74]</a> Matplotlib.pyplot.legend# (no date) matplotlib.pyplot.legend - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html (Accessed: 20 May 2024). 
+
+<a id="75">[75]</a> Matplotlib.axes.axes.add_artist# (no date) matplotlib.axes.Axes.add_artist - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.add_artist.html (Accessed: 20 May 2024). 
+
+<a id="76">[76]</a> Matplotlib.pyplot.savefig# (no date) matplotlib.pyplot.savefig - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html (Accessed: 20 May 2024). 
+
+<a id="77">[77]</a> GeeksforGeeks (2024) Python: Os.path.join() method, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/python-os-path-join-method/ (Accessed: 20 May 2024). 
+
+<a id="78">[78]</a> Matplotlib.pyplot.show# (no date) matplotlib.pyplot.show - Matplotlib 3.9.0 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html (Accessed: 20 May 2024). 
