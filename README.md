@@ -130,3 +130,41 @@ For further insights into my background, feel free to connect with me on LinkedI
 <a id="26">[26]</a> Statistical Data Visualization# (no date) seaborn. Available at: https://seaborn.pydata.org/ (Accessed: 20 May 2024). 
 
 <a id="27">[27]</a> Tyagi, A. (2023) Comprehensive guide to python’s tabulate library, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2023/12/mastering-tabulate/ (Accessed: 20 May 2024). 
+
+<a id="28">[28]</a> Chris, K. (2022) Python functions – how to define and call a function, freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/python-functions-define-and-call-a-function/ (Accessed: 20 May 2024). 
+
+<a id="29">[29]</a> GeeksforGeeks (2024b) Python: Os.path.exists() method, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/python-os-path-exists-method/ (Accessed: 20 May 2024). 
+
+<a id="30">[30]</a> Cbse (2022) Exit() in Python, Scaler Topics. Available at: https://www.scaler.com/topics/exit-in-python/ (Accessed: 20 May 2024). 
+
+<a id="31">[31]</a> Difference between exit(0) and exit(1) in Python (2012) Stack Overflow. Available at: https://stackoverflow.com/questions/9426045/difference-between-exit0-and-exit1-in-python (Accessed: 20 May 2024). 
+
+<a id="32">[32]</a> PANDAS.READ_CSV# (no date) pandas.read_csv - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html (Accessed: 20 May 2024). 
+
+<a id="33">[33]</a> Nelamali, N. (2024) Pandas add column names to DataFrame, Spark By {Examples}. Available at: https://sparkbyexamples.com/pandas/pandas-add-column-names-to-dataframe/ (Accessed: 20 May 2024). 
+
+<a id="34">[34]</a> Real Python (2023) What does if __name__ == ‘__main__’ do in python?, Real Python. Available at: https://realpython.com/if-name-main-python/ (Accessed: 20 May 2024). 
+
+<a id="35">[35]</a> Gokhale, S. (2023) How to use stringio in python3?, AskPython. Available at: https://www.askpython.com/python/string/stringio-in-python3 (Accessed: 20 May 2024). 
+
+<a id="36">[36]</a> [python] - creating a dictionary using a for loop in Python (no date) SheCodes. Available at: https://www.shecodes.io/athena/73172-creating-a-dictionary-using-a-for-loop-in-python (Accessed: 20 May 2024). 
+
+<a id="37">[37]</a> Check which columns in DataFrame are categorical (2015) Stack Overflow. Available at: https://stackoverflow.com/questions/29803093/check-which-columns-in-dataframe-are-categorical (Accessed: 20 May 2024). 
+
+<a id="38">[38]</a> Pandas.series.value_counts# (no date) pandas.Series.value_counts - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html (Accessed: 20 May 2024). 
+
+<a id="39">[39]</a> Python dictionary count of Unique Values (2013) Stack Overflow. Available at: https://stackoverflow.com/questions/16406329/python-dictionary-count-of-unique-values (Accessed: 20 May 2024). 
+
+<a id="40">[40]</a> Pandas.dataframe.describe# (no date) pandas.DataFrame.describe - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html (Accessed: 20 May 2024). 
+
+<a id="41">[41]</a> Hunner, T. (2024) File modes in Python, Python Morsels. Available at: https://www.pythonmorsels.com/file-modes-in-python/ (Accessed: 20 May 2024). 
+
+<a id="42">[42]</a> Chris, K. (2022) With open in python – with statement syntax example, freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/#:~:text=The%20with%20statement%20works%20with,function%20to%20open%20a%20file.&text=Unlike%20open()%20where%20you,and%20__exit()__%20. (Accessed: 20 May 2024). 
+
+<a id="43">[43]</a> 7. input and output (no date) Python documentation. Available at: https://docs.python.org/3/tutorial/inputoutput.html (Accessed: 20 May 2024). 
+
+<a id="44">[44]</a> Tabulate (no date) PyPI. Available at: https://pypi.org/project/tabulate/ (Accessed: 20 May 2024). 
+
+<a id="45">[45]</a> Pandas: Get First/last N rows of DataFrame with head() and tail() (no date) nkmk note. Available at: https://note.nkmk.me/en/python-pandas-head-tail/ (Accessed: 20 May 2024). 
+
+<a id="46">[46]</a> Pandas.dataframe.info# (no date) pandas.DataFrame.info - pandas 2.2.2 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html (Accessed: 20 May 2024). 
