@@ -268,3 +268,5 @@ For further insights into my background, feel free to connect with me on LinkedI
 <a id="95">[95]</a> Real Python (2023) The python return statement: Usage and best practices, Real Python. Available at: https://realpython.com/python-return-statement/ (Accessed: 20 May 2024). 
 
 <a id="96">[96]</a> What are modules in python, and how do they organize code? (no date) w3resource. Available at: https://www.w3resource.com/python-interview/what-are-modules-in-python-and-how-do-they-organize-code.php#google_vignette (Accessed: 20 May 2024). 
+
+<a id="97">[97]</a> OpenAI (2024) ChatGPT (Version GPT-4), OpenAI, viewed 20 May 2024, https://www.openai.com/.
