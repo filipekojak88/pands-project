@@ -71,7 +71,7 @@ It opens the [iris_project.ipynb](iris_project.ipynb) notebook in [Google Colab]
 ## Author
 
 Presently, I work as a Quality Engineer, having a foundation in Production Engineering & Management. With approximately 12 years of expertise spanning the medical device and automotive assembly sectors, I am now pursuing a career shift by undertaking a Data Analytics course at ATU. My ultimate objective is to transition into Artificial Intelligence.   
-   
+
 For further insights into my background, feel free to connect with me on LinkedIn: [Filipe Carvalho](https://www.linkedin.com/in/filipe-carvalho-8146232a/)
 
 
@@ -105,4 +105,28 @@ For further insights into my background, feel free to connect with me on LinkedI
 
 <a id="14">[14]</a> (No date) Open in Colab. Available at: https://openincolab.com/ (Accessed: 16 May 2024).    
 
-<a id="15">[15]</a> (No date a) Google colab. Available at: https://colab.research.google.com/ (Accessed: 16 May 2024).     
+<a id="15">[15]</a> (No date a) Google colab. Available at: https://colab.research.google.com/ (Accessed: 16 May 2024).  
+
+<a id="16">[16]</a> Kabaki, A. (2023) Understanding modules and packages in Python, SitePoint. Available at: https://www.sitepoint.com/python-modules-packages/ (Accessed: 20 May 2024). 
+
+<a id="17">[17]</a> Ibrahim, M. (2023) Module, package, Library & Framework - a real-life example, LinkedIn. Available at: https://www.linkedin.com/pulse/module-package-library-framework-real-life-example-mohammad-ibrahim#:~:text=In%20summary%2C%20a%20module%20is,of%20principles%20for%20developing%20applications. (Accessed: 20 May 2024). 
+
+<a id="18">[18]</a> OS - miscellaneous operating system interfaces (no date) Python documentation. Available at: https://docs.python.org/3/library/os.html (Accessed: 20 May 2024). 
+
+<a id="19">[19]</a> Pandas (no date) PyPI. Available at: https://pypi.org/project/pandas/ (Accessed: 20 May 2024). 
+
+<a id="20">[20]</a> Ram, V. (2023) Python IO module: The complete practical reference, AskPython. Available at: https://www.askpython.com/python-modules/python-io-module (Accessed: 20 May 2024). 
+
+<a id="21">[21]</a> GeeksforGeeks (2024) Pyplot in Matplotlib, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/pyplot-in-matplotlib/ (Accessed: 20 May 2024). 
+
+<a id="22">[22]</a> NumPy (2024) Wikipedia. Available at: https://en.wikipedia.org/wiki/NumPy (Accessed: 20 May 2024). 
+
+<a id="23">[23]</a> Statistical Functions (scipy.stats)# (no date) Statistical functions (scipy.stats) - SciPy v1.13.0 Manual. Available at: https://docs.scipy.org/doc/scipy/reference/stats.html (Accessed: 20 May 2024). 
+
+<a id="24">[24]</a> Scipy.stats.norm# (no date) scipy.stats.norm - SciPy v1.13.0 Manual. Available at: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html#scipy.stats.norm (Accessed: 20 May 2024). 
+
+<a id="25">[25]</a> Scipy.stats.skew# (no date) scipy.stats.skew - SciPy v1.13.0 Manual. Available at: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.skew.html (Accessed: 20 May 2024). 
+
+<a id="26">[26]</a> Statistical Data Visualization# (no date) seaborn. Available at: https://seaborn.pydata.org/ (Accessed: 20 May 2024). 
+
+<a id="27">[27]</a> Tyagi, A. (2023) Comprehensive guide to python’s tabulate library, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2023/12/mastering-tabulate/ (Accessed: 20 May 2024). 
