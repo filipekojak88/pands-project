@@ -17,7 +17,7 @@ This dataset has since become a standard test case for various statistical class
 
 - Data was collected from three difference Iris flowers species: setosa, versicolor and virginica.    
 
-![iris](imported_images/iris.png) 
+![iris](imported_images/iris.png)     
 *Iris species: setosa, versicolor, virginica*  [[8]](#8) [[9]](#9) [[10]](#10)       
 
 - 4 measurements were taken from each Iris flower: sepal length (cm), sepal width (cm), petal length (cm), and petal width (cm).          
@@ -37,10 +37,10 @@ This project is a valuable learning tool for anyone interested in honing their s
 
 Here you can find a guide on how to navigate through this project. For each item below that is part of this project a clickable link is provided so you can also access it directly from here.
 - Start by looking into the [iris_project.ipynb](iris_project.ipynb) as it presents a detailed explanation of the Python programs, modules and functions used to analyse the Iris dataset as well the investigation outcomes achieved from each Python program. 
-- Then, try out by looking and running the different programs developed for this project and how they are related to each other. See an overview of each program in case you want to see any in particular:
+- Then, try out by looking and running the different programs developed for this project and how they are related to each other. See an overview of each program in case you want to see a particular one:
     - [analysis.py](analysis.py): if you want to run all the programs at once, so this is the right program as all the other programs are loaded in and executed through this script.
     - [load_iris.py](load_iris.py): the program loads the Iris dataset to be used in the other programs.
-    - [summary.py](summary.py): this program outputs a summary of each variable in the Iris dataset to a single text file.
+    - [summary.py](summary.py): this program outputs a summary of each variable from the Iris dataset to a single text file.
     - [histogram.py](histogram.py): it saves a histogram of each continuous variable of the Iris dataset to png files that are saved in the repository histogram.
     - [scatterplot.py](scatterplot.py): this script displays a figure with several scatter plots of each pair of continuous variables grouped by the categorical variable.
     - [heatmap.py](heatmap.py): this program displays a heat map of the correlation of each pair of continuous variable.
@@ -49,13 +49,13 @@ Here you can find a guide on how to navigate through this project. For each item
     - [summary.txt](summary.txt): this text file provides details of the Iris dataset such as the first and last 5 rows of the dataset; a summary of the data types, categorical and continuos variables, and the correlation analysis.
     - [iris.data](iris.data): this file contains the Iris dataset imported from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/53/iris) [[12]](#12).
     - [histogram](histogram): this folder contains all the histograms in png files generated when running histogram.py.
-    - [imported_images](imported_images): this folder contains all the imported images that were edit and used in this project.
+    - [imported_images](imported_images): this folder contains all the imported images that were edited and used in this project.
 
 
 ## Get Help
 
 If you have any questions or need assistance while reviewing this project on Iris dataset, feel free to reach out to me via GitHub. I'll be glad to offer more information and support.   
-A comprehensive list of references is available at the end of this README file. The numbers provided throughout this README.md and the notebook files (e.g., iris_project.ipynb) are direct links to their respective references in the reference section. These references can provide additional insights into the methodologies and fundamentals employed in constructing this project. 
+A comprehensive list of references is available at the end of this README file. The numbers that appear in this README.md and in the iris_project.ipynb are direct links to their respective references in the reference section. These references can provide additional insights into the methodologies and fundamentals employed in constructing this project. 
 
 
 ## Contribute
