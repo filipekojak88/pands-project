@@ -24,6 +24,7 @@ def create_correlation(file_name):
     # Calculate correlation matrix
     corr = numeric_df.corr()
 
+
     # Group correlations by strength of relationship
     
     # Holds correlations with |correlation coefficient| ≥ 0.5
@@ -32,6 +33,9 @@ def create_correlation(file_name):
     moderate_correlations = []
     # Holds correlations with |correlation coefficient| < 0.3
     weak_correlations = []
+
+
+    # Iterate Over Column Pairs
 
     # Iterate over each pair of columns to calculate correlations
     for col1 in corr.columns:
